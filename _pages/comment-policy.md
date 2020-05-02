@@ -2,6 +2,7 @@
 title: "Comment Policy"
 permalink: /comment-policy/
 comments: false
+classes: default
 ---
 Comments are welcomed and encouraged on this site, but there are some instances where comments will be edited or deleted as follows:
 
