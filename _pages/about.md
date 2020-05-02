@@ -1,6 +1,7 @@
 ---
 title: "About"
 permalink: /about/
+comments: false
 header:
   image: "/images/about_background.jpg"
   caption: "Photo credit: [Jesus Kiteque](https://unsplash.com/@jesuskiteque?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)"
