@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Simple DataScience"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 :  site tagline that appears below site title in masthead
+name                     : "Amer Rashiddin Marzuki"
+description              : "Delivering comprehensible knowledge, one at a time."
+url                      : "https://prof-amer.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Amer Rashiddin Marzuki"
+  avatar           : "/images/Profile_Picture.jpg"
+  bio              : "Generation M, neuroscientist, and fundamentally sound"
+  location         : "Perak, Malaysia"
+  email            : "amermarzuki@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -279,3 +279,85 @@ defaults:
       comments: # true
       share: true
       related: true
+     
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+   
+  # _scraping
+  - scope:
+      path: ""
+      type: scraping
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      
+      
+  # _wrangling
+  - scope:
+      path: ""
+      type: wrangling
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      
+      
+  # _eda
+  - scope:
+      path: ""
+      type: Exploratory_Data_Analysis
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      
+      
+  # _machinelearning
+  - scope:
+      path: ""
+      type: machinelearning
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      
+
+  # _visualizations
+  - scope:
+      path: ""
+      type: visualizations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      
+
+
+
+    
+# Collections
+collections:
+  scraping:
+    output: true
+    permalink: /:collection/:path/
+  wrangling:
+    output: true
+    permalink: /:collection/:path/
+  Exploratory_Data_Analysis:
+    output: true
+    permalink: /:collection/:path/
+  machinelearning:
+    output: true
+    permalink: /:collection/:path/
+  visualizations:
+    output: true
+    permalink: /:collection/:path/
+    
+
