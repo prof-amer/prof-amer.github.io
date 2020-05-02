@@ -5,5 +5,4 @@ permalink: /wrangling/
 collection: wrangling
 entries_layout: grid
 classes: wide
-comments: true
 ---
