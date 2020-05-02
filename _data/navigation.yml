@@ -1,12 +1,20 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
   - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+    url: /quick-start-guide/
+    
+    
+  #- title: "Wrangling/Munging/Preprocessing"
+  # url: /data-wrangling_munging_preprocessing/
+  #- title: "Exploratory Data Analysis (EDA)"
+  #  url: /exploratory_data_analysis/
+  #- title: "Machine Learning"
+  #  url: /machine_learning/
+  #- title: "Data Visualizations"
+  #  url: /data_visualizations/
+
   # - title: "Sitemap"
   #   url: /sitemap/
+
