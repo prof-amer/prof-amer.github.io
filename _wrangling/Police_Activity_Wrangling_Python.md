@@ -1,6 +1,5 @@
 ---
 title: "Police Activity - Wrangling (Python)"
-classes: wide
 excerpt: "Analyzing police stops"
 ---
 
