@@ -1,13 +1,12 @@
 ---
 title: "Police Activity - Wrangling (Python)"
 classes: wide
-comments: true
 excerpt: "Analyzing police stops"
 ---
 
 
 
-This a dataset on traffic stops by police traffice in Rhode Island. Let's first import the data using pandas, and do some validating and error tracking. Do note that error checking is _extremely_ important to be done as soon as possible, at it avoids us from more grim future problems.
+This a dataset on traffic stops by police traffic in Rhode Island, United States of America. Let's first import the data using pandas, which is a Python package, and do some validation and error checking. Do note that error checking is _extremely_ important to be done as soon as possible, at it avoids us from more grim future problems.
 
 
 ```python
@@ -137,7 +136,7 @@ print(ri.shape)
     (86536, 13)
 
 
-From the .shape attribute, we can see that a significant amount of row are dropped. It is important
+From the .shape attribute, we can see that a significant amount of rows are dropped. It is important
 to weight the importance of the rows before dropping them as it might affect our analysis in the future. Now that we have removed columns and rows that are not useful for our analysis, we can continue our data cleaning by checking the datatype of each columns.
 
 
@@ -165,7 +164,7 @@ ri.dtypes
 
 
 
-Object are Python's strings, though it may include the presence of other Python object such as list. This is considered the default type when pandas read in the csv file that are provided when pandas are not sure what is the data type of that column. Let's change one column, that is is_arrested, since it is an object dtype even though the values only consist of True and False
+The _object_ dtype is known as the Python's strings, though it may include the presence of other Python object such as a list. The _object_ dtype are automatically assigned to a column whenever pandas are not sure what is the data type of that column. Let's change one column, that is is_arrested since the values only consist of True and False, which is the default values for _bool_ dtype.
 
 
 ```python
@@ -188,7 +187,7 @@ print(ri.is_arrested.dtype)
     bool
 
 
-Another step that we can take is combine the data and time and convert it to datetime object to make analysis easier, as datetime dtype have specific attribute and methods that can be applied
+Another step that we can take is to combine the date and time column and convert it to a _datetime_ object to make analysis easier, as _datetime_ dtype have specific attribute and methods that can be utilized
 
 
 ```python
@@ -220,7 +219,7 @@ print(ri.dtypes)
     dtype: object
 
 
-Finally, we can change the index of the data to the stop_datetime column that we have created. Using datetime object as index makes it easier for us to filter dataframe by date, plot the data by date, and so on. If you are not sure what is the best column to use as the index, the datetime object may be the best place to start.
+Finally, we can change the index of the data to the stop_datetime column that we have created. Using _datetime_ object as the index makes it easier for us to filter dataframe by date, plot the data by date, and so on. If you are not sure what is the best column to use as the index, the _datetime_ object may be the best place to start.
 
 
 ```python
@@ -255,11 +254,4 @@ print(ri.columns)
 
 These are some of the basic steps in data wrangling, though you may need more time to perform wrangling on larger and complex dataset.
 
-That's it for wrangling! We will continue to use this dataset for the next step in our data science journey; Exploratory Data Analysis(EDA)
-
-The below code is just me exporting the data for our next step
-
-
-```python
-ri.to_csv("ri_eda.csv")
-```
+That's it for wrangling! We will continue to use this dataset for the next step in our data science journey; Exploratory Data Analysis(EDA). See you there!
