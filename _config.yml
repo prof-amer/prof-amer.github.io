@@ -302,6 +302,7 @@ defaults:
       share: true
       comments: true
       read_time: true
+      classes: wide
       
       
   # _wrangling
@@ -314,6 +315,7 @@ defaults:
       share: true
       comments: true
       read_time: true
+      classes: wide
       
       
   # _eda
@@ -326,6 +328,7 @@ defaults:
       share: true
       comments: true
       read_time: true
+      classes: wide
       
       
   # _machinelearning
@@ -338,7 +341,7 @@ defaults:
       share: true
       comments: true
       read_time: true
-      
+      classes: wide
 
   # _visualizations
   - scope:
@@ -350,7 +353,7 @@ defaults:
       share: true
       comments: true
       read_time: true
-      
+      classes: wide
 
 
 
