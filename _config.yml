@@ -291,7 +291,6 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-      comments: true
    
   # _scraping
   - scope:
@@ -301,6 +300,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      comments: true
       
       
   # _wrangling
@@ -322,6 +322,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      comments: true
       
       
   # _machinelearning
@@ -332,6 +333,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      comments: true
       
 
   # _visualizations
@@ -342,6 +344,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      comments: true
       
 
 
