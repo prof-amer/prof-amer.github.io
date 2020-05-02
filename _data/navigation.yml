@@ -4,16 +4,6 @@ main:
     url: /about/
   - title: "Quick-Start Guide"
     url: /quick-start-guide/
-    
-    
-  #- title: "Wrangling/Munging/Preprocessing"
-  # url: /data-wrangling_munging_preprocessing/
-  #- title: "Exploratory Data Analysis (EDA)"
-  #  url: /exploratory_data_analysis/
-  #- title: "Machine Learning"
-  #  url: /machine_learning/
-  #- title: "Data Visualizations"
-  #  url: /data_visualizations/
 
   # - title: "Sitemap"
   #   url: /sitemap/
