@@ -1,5 +1,6 @@
 ---
 title: "Police Activity - Wrangling (Python)"
+last_modified_at: 2020-05-26
 excerpt: "Analyzing police stops"
 ---
 
