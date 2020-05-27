@@ -1,9 +1,9 @@
 ---
-title: "Machine Learning Test Post"
+title: "Should be at top"
 categories:
   - Machine Learning
-date: 2020-04-20
-tags: [data wrangling, data science, messy data]
+date: 2020-04-28
+tags: [data science]
 header:
     image: "/images/perceptron/percept.jpg"
 excerpt: "Data wrangling, Data Science, Messy Data"

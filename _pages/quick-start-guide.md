@@ -25,13 +25,13 @@ author_profile: false
 - Tidy data are a _lot_ more easier to analysis, as it has the formal structure where;
 1. Each variable forms a column
 2. Each observation forms a row
-3. Each type of observational unit forms a table 
-  
+3. Each type of observational unit forms a table
+
 [Wrangling]({{ "/wrangling/" | relative_url }}){: .btn .btn--success .btn--large}
 
 ## Exploratory Data Analysis (EDA)
 
-- Focuses on the technique of exploring the data to answer questions and visualizing the results 
+- Focuses on the technique of exploring the data to answer questions and visualizing the results
 - EDA allows us to validate data and unravel the relationships between variables
 - It is common to use summary statistics and regression models in EDA
 
@@ -51,8 +51,13 @@ author_profile: false
 - The audience can be both from those who are well-versed in the field of data science and those who are not familiar with the field
 - Beautiful are not the _main_ goal in visualizations; it is comprehensibility and accuracy. Beautiful is a plus
 
-[Visualizations]({{ "/visualizations/" | relative_url }}){: .btn .btn--success .btn--large}
+## Express Projects
 
+- A category for projects that are too simple to be broken down into the above categories
+- Each project are completed in a single post
+
+[Express Projects]({{ "/express_projects/" | relative_url }}){: .btn .btn--success .btn--large}
+&nbsp;
 # Project Naming Convention
 =================================
 

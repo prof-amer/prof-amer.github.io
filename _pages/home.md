@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: ""
 permalink: /
 hidden: true
 header:
@@ -8,7 +9,8 @@ header:
   caption: "Photo credit: [Sascha Heide](https://unsplash.com/@sascha_heide?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 excerpt: >
   Collections of Amer's weekly data science project. Think less, do more.<br />
-  <small><a href="https://prof-amer.github.io/quick-start-guide/">First Timer? Here</a></small>
+  <small><a href="https://prof-amer.github.io/quick-start-guide/">First Timer? Here</a></small><br />
+  <small><a href="https://prof-amer.github.io/recent_posts/">Most Recent Posts</a></small>
 feature_row:
   - image_path: /images/scraping.jpg
     alt: "scrape"
@@ -30,7 +32,7 @@ feature_row:
     excerpt: "Explore the data using summary statistics and graphical representations"
     url: "/eda/"
     btn_class: "btn--primary"
-    btn_label: "Discover" 
+    btn_label: "Discover"
   - image_path: /images/machine_learning.jpg
     alt: "ai"
     title: "Machine Learning"
@@ -44,7 +46,14 @@ feature_row:
     excerpt: "Results, communicated elegantly"
     url: "/visualizations/"
     btn_class: "btn--primary"
-    btn_label: "Discover"    
+    btn_label: "Discover"
+  - image_path: /images/express.jpg
+    alt: "express"
+    title: "Express Projects"
+    excerpt: "Projects completed in a single post"
+    url: "/express_projects/"
+    btn_class: "btn--primary"
+    btn_label: "Discover"
 ---
 
 {% include feature_row %}

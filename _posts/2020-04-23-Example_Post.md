@@ -1,8 +1,8 @@
 ---
-title: "Machine Learning Test Post"
+title: "Should be at bottom"
 date: 2020-04-23
 collection: machinelearning
-tags: [data wrangling, data science, messy data]
+tags: [data wrangling]
 header:
     image: "/images/perceptron/percept.jpg"
 excerpt: "Data wrangling, Data Science, Messy Data"

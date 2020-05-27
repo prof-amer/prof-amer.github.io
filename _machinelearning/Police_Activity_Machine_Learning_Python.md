@@ -1,6 +1,6 @@
 ---
-title: "Police Activity - Wrangling (Python)"
-date: 2020-02-26
+title: "Police Activity - Machine Learning (Python)"
+date: 2020-03-09
 excerpt: "Analyzing police stops"
 ---
 

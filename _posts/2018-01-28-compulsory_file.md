@@ -2,7 +2,7 @@
 title: "Suicide Dataset"
 date: 2018-01-28
 permalink: /exploratory_data_analysis/post_1
-tags: [data wrangling, data science, messy data]
+tags: [data wrangling]
 header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
