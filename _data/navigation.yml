@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Quick-Start Guide"
     url: /quick-start-guide/
-  - title: "Most Recent Posts"
-    url: /recent_posts/
+#  - title: "Most Recent Posts"
+#    url: /recent_posts/
 
   # - title: "Sitemap"
   #   url: /sitemap/
